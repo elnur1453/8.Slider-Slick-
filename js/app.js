@@ -6,7 +6,7 @@ $(document).ready(function(){
         dots: true,
         arrows: true,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2000,
         fade: true,
         speed: 300,
         cssEase: 'linear',
@@ -20,6 +20,12 @@ $(document).ready(function(){
   //prevArrow- class = slick-prev
   //nextArrow- class= slick-next
   //dotsClass- class= slick-dots
+  //dots_active- class = slick-active
+
+  //ul (slick-dots class-ı buna verilir) => li (slick-active class-ı li-lərə tətbiq olunur) => button:: before (yumru qara nöqtələr buttonlardır. Daha dogrusu button:: before).
+  //Qeyd: ul => button id = slick-slide-control00 (control01, control02 və s. bu şəkildə slayddakı obyekt sayına görə artır. Ancaq rəqəm 00-dan başlayır).
+
+
 
   /*
   Responsive slick slider:

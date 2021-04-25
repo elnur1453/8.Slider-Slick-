@@ -54,3 +54,9 @@
     cursor: pointer;
     color: white;
 }
+
+.slick-dots li button::before {
+    font-size: 20px;
+    margin-top: 10px;
+    color: red;
+}
